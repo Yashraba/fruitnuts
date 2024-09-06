@@ -1,0 +1,222 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.first-part{
+  width: 100%;
+  height: 20vh;
+
+}
+.first-part img{
+  width: 25%;
+  height: 100px;
+  padding-left: 30px;
+}
+.nav-bar{
+  width: 100%;
+  height: 15vh;
+  padding-top: 15px;
+  
+}
+.nav-bar ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type:none;
+  font-size: 1.2em;
+  
+  
+}
+.nav-bar ul li:hover{
+  color: rgb(173, 169, 169);
+}
+.mid-navbar{
+  width:100%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.mid-navbar i{
+  font-size: 30px;
+  margin-left: 10px;
+}
+.nav-bar2 {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 20px;
+}
+.nav-bar2 a{
+  font-size: 1.2em;
+  color: black;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.nav-bar2 a:hover{
+  color: gray;
+
+}
+.nav-bar2 input{
+  width: 20%;
+  height: 50px;
+  margin-right: 20px;
+}
+.nav-bar2 input::placeholder{
+  font-size: 1.2em;
+  font-style: italic;
+}
+.heading{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading h1{
+  font-size: 2.5em;
+
+}
+.hero-section{
+  width: 90%;
+  height: auto;
+  background-color: gainsboro;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-block: 40px;
+  margin-left: 70px;
+  
+
+}
+.hero-section img{
+  width: 90%;
+  
+}
+.box-part{
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 40px;
+}
+.box-part .card{
+  width: 25%;
+  height: auto;
+  
+  padding-left: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+.card button{
+  width: 25%;
+  height: 30px;
+  background-color: black;
+  color: white;
+  margin-top: 5px;
+}
+.card img{
+  width: 100%;
+  margin-top:10px ;
+}
+.card a{
+  font-size: 1em;
+  color: black;
+  margin-top: 5px;
+  text-align: center;
+}
+.card h5{
+  font-size: 1em;
+  margin-top: 40px;
+}
+.footer{
+  width: 100%;
+  height: auto;
+  background-color: gainsboro;
+}
+.part1{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+  padding-top: 60px;
+}
+.part1 .box h5{
+  font-size: 1em;
+  font-weight: lighter;
+  
+
+}
+.box ul a{
+  color: black;
+  text-decoration: none;
+  
+}
+.box ul li{
+  margin-top: 5px;
+}
+.part2{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.part2 img{
+  width: 10%;
+
+}
+.part2 img:nth-child(2){
+  width: 30%;
+}
+.part3{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  border-bottom: 1px solid rgb(122, 121, 121);
+
+}
+.part3 img{
+  width: 20%;
+}
+.part3 img:nth-child(2){
+  width: 40%;
+}
+.part4{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: end;
+  justify-content: flex-end;
+  padding: 30px;
+}
+
+/*Responsive code */
+
+@media (max-width:768px) {
+  .nav-bar2{
+      display: none;
+  }
+  .nav-bar ul{
+      display: none;
+  }
+  .hero-section{
+      margin-left: 30px;
+  }
+  .card button{
+      width: 35%;
+  }
+
+  
+}
